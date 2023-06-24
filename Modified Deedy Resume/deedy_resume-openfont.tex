@@ -1,0 +1,144 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modified Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (07/04/2020)
+% 
+%
+%
+
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage{eurosym}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Sanskriti}{Singh}{ \urlstyle{same}
+\href{mailto:xyz123@mail.com}{\bf xyz123@mail.com} | \bf +91 9999999999 | \urlstyle{same}\href{https://github.com/Sanskritis101}{\bf Github} |
+\urlstyle{same}\href{https://linkedin.com/in/xyzxyz123}{\bf Linkedin}} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.97\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\subsection{College Name}
+\descript{Bachelor of Engineering Stream}
+\location{December \textbf{2021 } - \textbf{Present} | Pune, Maharashtra}
+\textbf{Classification: First Class} (Predicted)
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{FaceRecog}
+\descript{| Python, YOLOv7, PyTorch, Google Colab, Flutter}
+\location{Apr \textbf{2023 } \newline }
+\begin{tightemize}
+\item FaceRecog: a real time face detection and recognition custom YOLOv7-model trained in Google Colab virtual GPU support along with a comprehensive GUI made in Flutter.
+
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+\subsection{Programming}
+\location{\textbf{ Proficient: }}
+  Python   \textbullet{}  Java  \textbullet{}  C  \textbullet{}   C++   \textbullet{}   HTML5   \textbullet{}   CSS  \\
+\location{\textbf{Currently Learning: }}
+  Linux  \textbullet{}   NodeJS   \textbullet{}   JavaScript   \textbullet{} ExpressJS   \\
+\location{\textbf{Familiar:}}
+Flutter   \textbullet{}   \LaTeX\ \textbullet{ }   Kotlin \\
+\subsection{VCS \& Build Tools}
+Git \textbullet{} Github Actions
+\subsection{Database Systems}
+\location{\textbf{Proficient:}}
+MySQL \\
+\location{\textbf{Familiar:} }
+SQLite  \textbullet{} MongoDB
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LANGUAGES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Languages}
+\textbullet{} \textbf{English,} full professional proficiency \\
+\textbullet{} \textbf{Hindi,} native proficiency \\
+\textbullet{} \textbf{Marathi,} limited working proficiency\\
+
+\section{Coursework}
+\textbullet{} Algorithms and Data Structures \\
+\textbullet{} Computer Networks \\
+\textbullet{} Operating Systems \\
+\textbullet{} Theory of Computation \\
+\textbullet{} Machine Learning \\
+\textbullet{} Processor Architecture \\
+\textbullet{} Object-Oriented Programming \\
+\textbullet{} Software Engineering \\
+\textbullet{} Computer Organisation \\
+\textbullet{} Linear Algebra \\
+\textbullet{} Discrete Mathematics 
+
+\section{Activities}
+\textbullet{} Association for Computing Machinery\\
+\textbullet{} ACM Chapter\\
+\textbullet{} F.E Student Association\\
+\sectionsep
+
+\end{minipage}%
+\end{document}  
+\documentclass[]{article}
