@@ -18,6 +18,6 @@ Includes modifications in the Deedy Resume by @apurvmishra99
 - Modified the page format into a single column Deedy Resume
 
 
-##  Additional Details from @apurvamishra99's repository:
+##  Additional Details from  [@apurvmishra99] (https://www.github.com/apurvamishra99) 's repository:
 1. **MacFonts** - uses fonts native to OSX - *Helvetica*, *Helvetica Neue* (and it's Light and Ultralight versions) and the CJK fonts *Heiti SC*, and *Heiti TC*. The EULA of these fonts prevents distribution on Open Source.
 2. **OpenFonts** - uses free, open-source fonts that resemble the above - *Lato* (and its various variants) and *Raleway*.
