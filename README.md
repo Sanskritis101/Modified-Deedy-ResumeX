@@ -2,14 +2,14 @@
 A basic LaTeX resume meant for freshers (functional format: focuses less on Work Experience and more on skills &amp; achievements). Licenses, certifications, etc. should be added as per relevance. Intended for use by students currently pursuing a degree in order to apply for fellowships and internships.
 
 Includes modifications in the Deedy Resume by [@apurvmishra99](https://github.com/apurvmishra99)
-# Preview:
+## Preview:
 
 ![Modified Deedy ResumeX](https://github.com/Sanskritis101/Modified-Deedy-ResumeX/assets/104347305/a3bbf3e8-0ea0-4455-b8d4-d27a888032be)
 
-# Change Log
+## Change Log
 
 
-## v0.0.1
+### v0.0.1
 
 - Removed the columns with Experience, Awards, Travel & Conference Grants etc.
 - Switched up the order of items based on personal preferences.
